@@ -1,0 +1,42 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    /* Tableread Colors */
+    --custom-black: hsl(0, 0%, 0%);
+    --custom-white: hsl(0, 0%, 100%);
+
+    --custom-green: hsl(87, 100%, 70%);
+    --custom-grey: hsl(0, 0%, 95%);
+    --custom-dark: hsl(234, 17%, 12%);
+    /* End Tableread Colors */
+
+    --custom-background: var(--custom-grey);
+    --custom-foreground: var(--custom-dark);
+    --custom-card: var(--custom-grey);
+    --custom-card-foreground: var(--custom-dark);
+    --custom-card-dark: var(--custom-dark);
+    --custom-card-dark-foreground: var(--custom-grey);
+    --custom-popover: var(--custom-white);
+    --custom-popover-foreground: var(--custom-dark);
+    --custom-primary: var(--custom-green);
+    --custom-primary-foreground: var(--custom-dark);
+    --custom-secondary: var(--custom-dark);
+    --custom-secondary-foreground: var(--custom-grey);
+    --custom-muted: var(--custom-grey);
+    --custom-muted-foreground: var(--custom-dark);
+    --custom-accent: var(--custom-green);
+    --custom-accent-foreground: var(--custom-dark);
+    --custom-destructive: hsl(0, 84.2%, 60.2%);
+    --custom-destructive-foreground: hsl(0, 0%, 98%);
+    --custom-border: var(--custom-dark);
+    --custom-input: hsl(240, 5.9%, 90%);
+    --custom-ring: hsl(142.1, 76.2%, 36.3%);
+    --custom-radius: 0.5rem;
+    --custom-chart-1: hsl(12, 76%, 61%);
+    --custom-chart-2: hsl(173, 58%, 39%);
+    --custom-chart-3: hsl(197, 37%, 24%);
+    --custom-chart-4: hsl(43, 74%, 66%);
+    --custom-chart-5: hsl(27, 87%, 67%);
+  }
+}

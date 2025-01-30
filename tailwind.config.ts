@@ -8,8 +8,63 @@ export default {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    boxShadow: {
+      custom: '0 2px 0 0 var(--custom-dark)',
+    },
     extend: {
       colors: {
+        custom: {
+          white: 'var(--custom-white)',
+          black: 'var(--custom-black)',
+          background: 'var(--custom-background)',
+          foreground: 'var(--custom-foreground)',
+          card: {
+            DEFAULT: 'var(--custom-card)',
+            foreground: 'var(--custom-card-foreground)',
+            dark: {
+              DEFAULT: 'var(--custom-card-dark)',
+              foreground: 'var(--custom-card-dark-foreground)',
+            },
+            green: {
+              DEFAULT: 'var(--custom-primary)',
+              foreground: 'var(--custom-secondary)',
+            },
+          },
+          popover: {
+            DEFAULT: 'var(--custom-popover)',
+            foreground: 'var(--custom-popover-foreground)',
+          },
+          primary: {
+            DEFAULT: 'var(--custom-primary)',
+            foreground: 'var(--custom-primary-foreground)',
+          },
+          secondary: {
+            DEFAULT: 'var(--custom-secondary)',
+            foreground: 'var(--custom-secondary-foreground)',
+          },
+          muted: {
+            DEFAULT: 'var(--custom-muted)',
+            foreground: 'var(--custom-muted-foreground)',
+          },
+          accent: {
+            DEFAULT: 'var(--custom-accent)',
+            foreground: 'var(--custom-accent-foreground)',
+          },
+          destructive: {
+            DEFAULT: 'var(--custom-destructive)',
+            foreground: 'var(--custom-destructive-foreground)',
+          },
+          border: 'var(--custom-border)',
+          input: 'var(--custom-input)',
+          ring: 'var(--custom-ring)',
+          chart: {
+            '1': 'var(--custom-chart-1)',
+            '2': 'var(--custom-chart-2)',
+            '3': 'var(--custom-chart-3)',
+            '4': 'var(--custom-chart-4)',
+            '5': 'var(--custom-chart-5)',
+          },
+        },
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         card: {
