@@ -40,7 +40,7 @@ export function FinalSupporting() {
         </div>
       </Card>
       <div
-        className="my-20 w-full"
+        className="my-20 mb-40 w-full"
         id="waitlist-form"
       >
         <iframe
