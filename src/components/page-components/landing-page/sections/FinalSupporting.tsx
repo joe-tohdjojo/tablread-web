@@ -13,10 +13,10 @@ export function FinalSupporting() {
         <div className="col-span-5 flex flex-col items-center gap-4 md:col-span-4 md:items-start lg:col-span-5">
           <h4 className="text-xl font-semibold">Let&apos;s make it happen!</h4>
           <p>
-            Your next big project deserves the perfect cast, crew, and
-            collaboration. Table Read is here to connect you with industry
-            professionals and bring your creative vision to life. Be part of the
-            future of filmmaking—start your journey today.
+            Your next big project deserves the right voices, collaborators, and
+            audience. Table Read connects you with a creative community to bring
+            your vision to life. Be part of the future of storytelling—start
+            your journey today.
           </p>
           <Button
             variant="secondary"

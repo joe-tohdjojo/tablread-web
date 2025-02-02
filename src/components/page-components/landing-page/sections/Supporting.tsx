@@ -40,8 +40,9 @@ const data = [
     header: <>Unlock Your Script&apos;s Potential</>,
     text: (
       <>
-        Refine your dialogue, improve pacing, and get professional-level
-        feedback—without paying for expensive script readers.
+        Refine your dialogue, improve pacing, and receive professional-level
+        feedback—guided by industry-standard questions to ensure actionable,
+        insightful notes.
       </>
     ),
   },
@@ -65,8 +66,8 @@ export function Supporting() {
           Why Table Read Stands Out
         </h1>
         <p className="text-center text-xl">
-          Explore how Table Read makes collaboration seamless and stories
-          unforgettable.
+          Explore how Table Read makes collaboration effortless and transforms
+          your scripts into powerful, immersive experiences.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
