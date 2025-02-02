@@ -9,7 +9,7 @@ import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="m-auto w-full max-w-[1100px] bg-custom-white px-8 pt-8 font-[family-name:var(--font-space-grotesk)]">
+    <div className="m-auto w-full max-w-[1200px] bg-custom-white px-8 pt-8 font-[family-name:var(--font-space-grotesk)]">
       <Script
         src="https://tally.so/widgets/embed.js"
         async
