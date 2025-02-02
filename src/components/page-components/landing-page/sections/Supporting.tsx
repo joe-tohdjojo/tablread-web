@@ -65,7 +65,7 @@ export function Supporting() {
         <h1 className="w-fit rounded-md bg-custom-primary px-1 py-0 text-2xl font-semibold">
           Why Table Read Stands Out
         </h1>
-        <p className="text-center text-xl">
+        <p className="max-w-[70%] text-center text-xl">
           Explore how Table Read makes collaboration effortless and transforms
           your scripts into powerful, immersive experiences.
         </p>
