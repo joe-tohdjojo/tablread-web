@@ -20,7 +20,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'Table Read',
   description:
-    'Transform your scripts into captivating performances. Join the waitlist for TableRead and be part of a community where ideas become unforgettable moments.',
+    'Your next big project deserves the right voices, collaborators, and audience. Table Read connects you with a creative community to bring your vision to life. Be part of the future of storytelling—start your journey today.',
 };
 
 export default function RootLayout({
