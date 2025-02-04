@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Space_Grotesk } from 'next/font/google';
 import { GoogleTagManager } from '@next/third-parties/google';
 
 import './globals.css';
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -45,6 +46,7 @@ export default function RootLayout({
           ></iframe>
         </noscript>
         {children}
+        <Script src="//cdn.cookie-script.com/s/fb2de78706d6063c37786000350f7af3.js" />
       </body>
     </html>
   );
