@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Space_Grotesk } from 'next/font/google';
 import { GoogleTagManager } from '@next/third-parties/google';
+import { Analytics } from '@vercel/analytics/react';
 
 import './globals.css';
 
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} antialiased`}
       >
+        <Analytics />
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-WVWR3HVZ"
