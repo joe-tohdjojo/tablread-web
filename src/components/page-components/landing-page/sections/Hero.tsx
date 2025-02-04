@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import { sendGTMEvent } from '@next/third-parties/google';
-import { Button } from '@/components/ui/custom/button';
 import heroImage from '@/../public/Illustration.svg';
+import { JoinWaitlistButton } from '@/components/page-components/landing-page/JoinWaitlistButton';
 
 export function Hero() {
   return (
@@ -14,24 +13,7 @@ export function Hero() {
           Post your script, assign roles, and hear your words performed by real
           actors. Experience your story beyond the page.
         </p>
-        <Button
-          className="w-fit"
-          data-tally-auto-close="0"
-          data-tally-emoji-animation="wave"
-          data-tally-emoji-text="👋"
-          data-tally-hide-title="1"
-          data-tally-open="wkJGdd"
-          variant="secondary"
-          size="lg"
-          onClick={() =>
-            sendGTMEvent({
-              event: 'join_event_button',
-              value: 'landing_page_hero',
-            })
-          }
-        >
-          Join the waitlist!
-        </Button>
+        <JoinWaitlistButton eventValue="landing_page_hero" />
       </div>
       <div className="flex items-center justify-center">
         <Image
