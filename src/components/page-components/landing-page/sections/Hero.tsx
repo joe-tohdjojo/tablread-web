@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { sendGTMEvent } from '@next/third-parties/google';
 import { Button } from '@/components/ui/custom/button';
 import heroImage from '@/../public/Illustration.svg';
 
@@ -22,6 +23,12 @@ export function Hero() {
           data-tally-open="wkJGdd"
           variant="secondary"
           size="lg"
+          onClick={() =>
+            sendGTMEvent({
+              event: 'join_event_button',
+              value: 'landing_page_hero',
+            })
+          }
         >
           Join the waitlist!
         </Button>
