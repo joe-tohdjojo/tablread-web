@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { Button } from '@/components/ui/custom/button';
 import { Card } from '@/components/ui/custom/card';
 import funImage from '@/../public/Illustration2.svg';
+import { JoinWaitlistButton } from '@/components/page-components/landing-page/JoinWaitlistButton';
 
 export function FinalSupporting() {
   return (
@@ -18,18 +18,7 @@ export function FinalSupporting() {
             your vision to life. Be part of the future of storytelling—start
             your journey today.
           </p>
-          <Button
-            variant="secondary"
-            size="lg"
-            className="w-fit"
-            data-tally-open="wkJGdd"
-            data-tally-hide-title="1"
-            data-tally-emoji-text="👋"
-            data-tally-emoji-animation="wave"
-            data-tally-auto-close="0"
-          >
-            Join the waitlist!
-          </Button>
+          <JoinWaitlistButton eventValue="landing_page_final_supporting" />
         </div>
         <div className="flex h-full flex-col items-end justify-center md:col-span-4 md:max-h-48 lg:col-span-3">
           <Image
