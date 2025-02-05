@@ -6,6 +6,7 @@ import { sendGTMEvent } from '@next/third-parties/google';
 export function JoinWaitlistButton({ eventValue }: { eventValue: string }) {
   return (
     <Button
+      id="join_waitlist"
       className="w-fit"
       data-tally-auto-close="0"
       data-tally-emoji-animation="wave"
