@@ -17,7 +17,7 @@ export function JoinWaitlistButton({ eventValue }: { eventValue: string }) {
       size="lg"
       onClick={() =>
         sendGTMEvent({
-          event: 'join_event_button',
+          event: 'join_waitlist_button',
           value: eventValue,
         })
       }
